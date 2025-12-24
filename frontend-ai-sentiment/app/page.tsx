@@ -24,7 +24,7 @@ export default function Home() {
     setResult(null);
 
     try {
-      const response = await fetch("https://project-ai-sentiment.vercel.app/predict", {
+      const response = await fetch("https://project-ai-sentiment-lssd.vercel.app/predict", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
