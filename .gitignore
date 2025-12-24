@@ -1,0 +1,10 @@
+# Sampah Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Sampah Node.js (Frontend)
+node_modules/
+.next/
+.DS_Store
